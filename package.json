@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "next dev --turbopack -H 127.0.0.1",
+    "build": "next build --turbopack -H 127.0.0.1",
+    "start": "next start -H 127.0.0.1",
+    "lint": "eslint "
   },
   "dependencies": {
     "react": "19.1.0",
