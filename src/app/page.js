@@ -108,6 +108,7 @@ export default function Home() {
           width: 100vw;
           height: 100vh;
           position: relative;
+          touch-action: none; /* 防止浏览器默认触摸行为 */
         }
         #info {
           position: absolute;
